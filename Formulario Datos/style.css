@@ -1,10 +1,11 @@
 body {
     background: -webkit-linear-gradient(90deg, rgba(99, 0, 255, 1), rgba(118, 55, 255, 1),rgb(150, 101, 255));
 }
-
+.subtexto{
+    margin: 10px;
+}
 .register{
-    margin-top: 3%;
-    padding: 3%;
+    padding: 2.7%;
 }
 .register-left{
     text-align: center;
@@ -63,7 +64,7 @@ body {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #6d1eff;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -100,4 +101,22 @@ body {
     margin-top: 8%;
     margin-bottom: -15%;
     color: #495057;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 40px;
+}
+
+.register-form{
+    margin-top: 65px !important;
 }
