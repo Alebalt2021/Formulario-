@@ -121,3 +121,7 @@ textarea {
 .register-form{
     margin-top: 65px !important;
 }
+
+.btnRegister{
+    text-decoration: none;
+}
